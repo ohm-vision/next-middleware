@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "lib": [
+        // "es6",
+        "dom",
+        "dom.iterable",
+        "esnext"
+        // , "webworker"
+      ],
+      "outDir": "./dist",
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "declaration": true,
+      "noImplicitAny": false,
+      "noImplicitThis": true,
+      "strictNullChecks": false,
+      "skipDefaultLibCheck": true,
+      "skipLibCheck": true,
+      "plugins": [
+        {
+          "name": "next"
+        }
+      ],
+      "paths": {
+        "@/*": [
+          "./*"
+        ]
+      }
+    },
+    "include": [
+      "src/**/*.ts",
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
