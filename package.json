@@ -1,6 +1,6 @@
 {
   "name": "@ohm-vision/next-middleware",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A composer library to support NextJS middlewares from version 13 forward",
   "author": "Ohm Vision, Inc",
   "license": "MIT",
