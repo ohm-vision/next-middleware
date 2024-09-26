@@ -46,10 +46,10 @@ If you are using middleware for authenticating the user session (such as with `n
 Each middleware will be passed the following:
 
 * arg0: (object) - this is the unified object containing
-  * req: NextRequest - original NextRequest (cast to whatever type you choose)
-  * res: NextResponse - default response object
-  * evt: NextFetchEvent - original NextFetchEvent
-* arg0: NextFetchEvent - original NextFetchEvent
+  * req: NextRequest - original `NextRequest` (cast to whatever type you choose)
+  * res: NextResponse - default `NextResponse` object
+  * evt: NextFetchEvent - original `NextFetchEvent`
+* arg1: NextFetchEvent - original `NextFetchEvent`
 
 ### Next Middleware With Matcher
 We follow the [NextJS documentation](https://nextjs.org/docs/app/building-your-application/routing/middleware#matcher) and support all properties and types except for `locale`.

@@ -1,6 +1,6 @@
 {
   "name": "@ohm-vision/next-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A composer library to support NextJS middlewares from version 13 forward",
   "author": "Ohm Vision, Inc",
   "license": "MIT",
@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ohm-vision/next-js-app-apiroute.git"
+    "url": "git+https://github.com/ohm-vision/next-middleware.git"
   },
   "dependencies": {
     "path-to-regexp": "^8.1.0"
